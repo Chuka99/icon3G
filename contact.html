@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Contact — ICON 3G Communications</title>
+<meta name="description" content="Get in touch with ICON 3G Communications to start a documentary, campaign, production or full communication project." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,600;12..96,700;12..96,800&family=Inter:wght@400;500;600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+
+<header class="nav">
+  <div class="wrap nav__inner">
+    <a class="brand" href="index.html" aria-label="ICON 3G Communications home">
+      <img src="assets/logo.png" alt="ICON 3G Communications logo" />
+      <span class="brand__txt"><b>ICON 3G</b><span>We turn ideas</span></span>
+    </a>
+    <nav class="nav__links" aria-label="Primary">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="work.html">Work</a>
+      <a href="contact.html" class="active">Contact</a>
+      <span class="nav__cta"><a class="btn btn--fire" href="contact.html">Start a project</a></span>
+    </nav>
+    <button class="burger" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<section class="pagehead">
+  <div class="pagehead__glow"></div>
+  <div class="wrap">
+    <div class="crumbs"><a href="index.html">Home</a> / Contact</div>
+    <h1 class="display-xl">Let's create something <span class="fire-text">extraordinary.</span></h1>
+    <p class="lead">Tell us about your project — a documentary, campaign, production or full communication strategy. We'll get back to you with the right approach.</p>
+  </div>
+</section>
+
+<section class="section section--bone">
+  <div class="wrap contact-grid">
+
+    <!-- FORM -->
+    <div class="reveal">
+      <span class="eyebrow">Start a project</span>
+      <h2 class="display-md" style="margin-bottom:26px">Send us a brief</h2>
+      <form id="contactForm" novalidate>
+        <div class="field">
+          <label for="name">Full name</label>
+          <input id="name" name="name" type="text" placeholder="Your name" required />
+        </div>
+        <div class="grid grid-2" style="gap:18px">
+          <div class="field">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" placeholder="you@company.com" required />
+          </div>
+          <div class="field">
+            <label for="phone">Phone</label>
+            <input id="phone" name="phone" type="tel" placeholder="+234 ..." />
+          </div>
+        </div>
+        <div class="field">
+          <label for="service">Service of interest</label>
+          <select id="service" name="service">
+            <option>Documentary Production</option>
+            <option>Media Production</option>
+            <option>Advertising &amp; Media Buying</option>
+            <option>Branding &amp; Creative Design</option>
+            <option>Digital &amp; Social Media</option>
+            <option>PR &amp; Corporate Communications</option>
+            <option>Event Media Coverage</option>
+            <option>Photography &amp; Videography</option>
+            <option>Media Consultancy</option>
+            <option>Other / Not sure yet</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="message">Project details</label>
+          <textarea id="message" name="message" placeholder="Tell us about your goals, timeline and budget."></textarea>
+        </div>
+        <button type="submit" class="btn btn--fire">Send brief <span class="arr">→</span></button>
+        <p id="formNote" style="font-family:var(--f-mono);font-size:.72rem;letter-spacing:.06em;color:var(--slate);margin-top:16px"></p>
+      </form>
+    </div>
+
+    <!-- INFO -->
+    <div class="reveal">
+      <span class="eyebrow">Reach us directly</span>
+      <h2 class="display-md" style="margin-bottom:26px">Contact details</h2>
+      <div class="contact-info">
+        <div class="row">
+          <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16v12H4z"/><path d="M4 7l8 6 8-6"/></svg></span>
+          <div><b>Email</b><span><a href="mailto:hello@icon3g.com">hello@icon3g.com</a></span></div>
+        </div>
+        <div class="row">
+          <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 4h4l2 5-3 2a12 12 0 0 0 5 5l2-3 5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></svg></span>
+          <div><b>Phone</b><span><a href="tel:+2340000000000">+234 000 000 0000</a></span></div>
+        </div>
+        <div class="row">
+          <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s7-6 7-11a7 7 0 1 0-14 0c0 5 7 11 7 11z"/><circle cx="12" cy="10" r="2.5"/></svg></span>
+          <div><b>Studio</b><span>Add your office address here</span></div>
+        </div>
+        <div class="row">
+          <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></span>
+          <div><b>Hours</b><span>Mon–Fri, 9:00 – 18:00</span></div>
+        </div>
+        <div class="row" style="border-bottom:0">
+          <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5h16v14H4z"/><path d="M4 9h16"/></svg></span>
+          <div><b>Registration</b><span>RC 980663 · Established 2011</span></div>
+        </div>
+      </div>
+     <!--  <iframe src="https://google.com?..." 
+        width="100%" 
+        height="450" 
+        style="border:0; border-radius: 8px; max-width: 800px;" 
+        allowfullscreen="" 
+        loading="lazy">
+</iframe> -->
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19108842.090145603!2d-116.75539044462796!3d54.22217377012399!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4b0d03d337cc6ad9%3A0x9968b72aa2438fa5!2sCanada!5e0!3m2!1sen!2sng!4v1784393789611!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+    </div>
+
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer__top">
+      <div class="footer__brand">
+        <img src="assets/logo.jpg" alt="ICON 3G Communications" />
+        <p>Transforming ideas into powerful stories and impactful communication solutions since 2011.</p>
+        <div class="tag">Creative Media · Strategic Communication · Lasting Impact</div>
+      </div>
+      <div><h5>Explore</h5><ul><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="services.html">Services</a></li><li><a href="work.html">Work</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+      <div><h5>Services</h5><ul><li><a href="services.html">Documentary</a></li><li><a href="services.html">Media Production</a></li><li><a href="services.html">Advertising</a></li><li><a href="services.html">Branding</a></li><li><a href="services.html">PR &amp; Comms</a></li></ul></div>
+      <div><h5>Get in touch</h5><ul><li><a href="mailto:hello@icon3g.com">hello@icon3g.com</a></li><li><a href="tel:+2340000000000">+234 000 000 0000</a></li><li><a href="contact.html">Request a quote</a></li></ul></div>
+    </div>
+    <div class="footer__bottom">
+      <span>© <span data-year>2026</span> ICON 3G Communications. All rights reserved.</span>
+      <span class="rc">RC 980663 · EST. 2011</span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/main.js"></script>
+<script>
+  /* Compose a mailto from the brief so the form works without a backend.
+     Replace with your real form handler / backend endpoint when ready. */
+  (function () {
+    var form = document.getElementById("contactForm");
+    var note = document.getElementById("formNote");
+    if (!form) return;
+    form.addEventListener("submit", function (e) {
+      e.preventDefault();
+      var name = form.name.value.trim();
+      var email = form.email.value.trim();
+      if (!name || !email) { note.textContent = "Please add your name and email first."; return; }
+      var body =
+        "Name: " + name +
+        "%0D%0AEmail: " + email +
+        "%0D%0APhone: " + encodeURIComponent(form.phone.value) +
+        "%0D%0AService: " + encodeURIComponent(form.service.value) +
+        "%0D%0A%0D%0A" + encodeURIComponent(form.message.value);
+      window.location.href = "mailto:hello@icon3g.com?subject=" +
+        encodeURIComponent("New project brief from " + name) + "&body=" + body;
+      note.textContent = "Opening your email app… if nothing happens, email hello@icon3g.com directly.";
+    });
+  })();
+</script>
+</body>
+</html>
